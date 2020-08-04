@@ -50,7 +50,7 @@ useBigAreaInfo = false;     % true;
 % -------------------------------------------------------------------------
 % load input sequence
 % -------------------------------------------------------------------------
-[input, inputU, inputV] = loadInput(dirname, extfile,startFrame, totalFrame, resizeRatio);
+[input, inputU, inputV] = loadInput(dirname, extfile,totalFrame, resizeRatio);
 % for k = 1:length(mov)
 %     img = mov.cdata;
 %     if size(img,3)==3
